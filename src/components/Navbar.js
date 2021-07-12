@@ -3,29 +3,12 @@
 import styles from "../css/Navbar.module.css";
 
 import { Link } from "react-scroll";
-import { useEffect, useState } from "react";
 
 const Navbar = (props) => {
-  const [scrollBar, setScrollBar] = useState(false);
-
-  useEffect(() => {
-    window.addEventListener("scroll", changeBackground);
-  }, []);
-
-  const changeBackground = () => {
-    console.log("simp");
-    if (window.scrollY >= 80) {
-      setScrollBar(true);
-    } else {
-      setScrollBar(false);
-    }
-  };
-
   return (
     <div
-      onScroll={changeBackground}
       style={
-        scrollBar
+        props.scrollBar
           ? { backgroundColor: "rgba(27, 24, 24, 0.7)" }
           : { opacity: 1 }
       }

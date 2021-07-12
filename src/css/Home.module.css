@@ -16,9 +16,10 @@
   top: max(78vh, 430px);
   left: 40%;
   right: 40%;
+  transition: ease-in-out 0.4s;
 }
 
-.scrollDown {
+.scrollDownText {
   font: var(--font-body-scrollDown);
   color: var(--color-text-body);
 }

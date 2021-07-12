@@ -4,13 +4,27 @@ import styles from "../css/MainPage.module.css";
 import Navbar from "../components/Navbar";
 import Home from "../components/Home";
 import AboutMe from "../components/AboutMe";
+import { useEffect, useState } from "react";
 
 const MainPage = () => {
+  const [scrollBar, setScrollBar] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeBackground);
+  }, []);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setScrollBar(true);
+    } else {
+      setScrollBar(false);
+    }
+  };
   return (
     <div>
-      <Navbar />
+      <Navbar scrollBar={scrollBar} />
       <div id="section1">
-        <Home />
+        <Home scrollBar={scrollBar} />
       </div>
       <div id="section2">
         <AboutMe />
