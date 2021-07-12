@@ -1,0 +1,24 @@
+/** @format */
+
+.container {
+  background-color: var(--color-image-background);
+  height: 100vh;
+}
+
+.placement {
+  padding-top: 25vh;
+}
+
+.scrollDown {
+  position: absolute;
+  bottom: 30px;
+  padding-top: 4%;
+  top: max(78vh, 430px);
+  left: 40%;
+  right: 40%;
+}
+
+.scrollDown {
+  font: var(--font-body-scrollDown);
+  color: var(--color-text-body);
+}
