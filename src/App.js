@@ -2,7 +2,9 @@
 
 import "./App.css";
 import AboutMe from "./components/AboutMe";
-import Home from "./components/Home";
+import AllProjects from "./components/AllProjects";
+import CowText from "./components/CowText";
+import Project from "./components/Project";
 import MainPage from "./page/MainPage";
 function App() {
   return (

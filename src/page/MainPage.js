@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Home from "../components/Home";
 import AboutMe from "../components/AboutMe";
 import { useEffect, useState } from "react";
+import AllProjects from "../components/AllProjects";
 
 const MainPage = () => {
   const [scrollBar, setScrollBar] = useState(false);
@@ -29,10 +30,9 @@ const MainPage = () => {
       <div id="section2">
         <AboutMe />
       </div>
-      <div
-        id="section3"
-        style={{ backgroundColor: "blue", height: "1200px" }}
-      ></div>
+      <div id="section3" className={styles.projects}>
+        <AllProjects />
+      </div>
       <div
         id="section4"
         style={{ backgroundColor: "green", height: "1200px" }}

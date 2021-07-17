@@ -1,0 +1,47 @@
+/** @format */
+
+.container {
+  border: 2px solid var(--color-neon-pink);
+  background-color: var(--color-image-background);
+  width: 505px;
+}
+
+.imageSection {
+  width: 100%;
+  border-bottom: 2px solid var(--color-neon-pink);
+}
+
+.title {
+  margin: 0;
+  font: var(--font-project-title);
+  color: var(--color-text-body);
+}
+
+.bodyText {
+  margin: 0;
+  font: var(--font-smallText-body);
+  font-size: 20px;
+  color: var(--color-text-body);
+}
+
+.textPadding {
+  text-align: left;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.btn {
+  font: var(--font-text-body);
+  text-decoration: none;
+  color: var(--color-image-background);
+}
+
+.btnText {
+  margin: 14px 0;
+
+  border: 2px solid #17a074;
+  border-radius: 2px;
+  padding: 12px 0;
+  background-color: var(--color-neon-green);
+  text-align: center;
+}

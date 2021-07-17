@@ -11,22 +11,23 @@
   --font-body-scrollDown: 800 22px Syne;
   --font-body-title: 800 36px Syne;
   --font-subBody-title: 800 36px Syne;
-  --font-text-body: 400 16px Barlow;
-  --font-text-bold: 600 16px Barlow;
-  --font-text-semiBold: 400 20px Barlow;
+  --font-text-body: 600 22px Syne;
+  --font-text-subHeader: 800 22px Syne;
+  --font-smallText-body: 400 18px Syne;
+  --font-project-title: 600 49px Syne;
+  --font-text-header: 800 48px Syne;
+  --font-text-semiBold: 400 20px Syne;
   --font-upcomingEvent-date: 600 30px Barlow;
   --font-notes-body: 600 16px Barlow;
 }
 
 @media only screen and (min-width: 600px) {
   :root {
-    --font-body-heading: 600 64px Barlow;
-    --font-body-subheading: 800 30px Barlow;
     --font-body-title: 800 96px Syne;
     --font-subBody-title: 800 64px Syne;
-    --font-text-body: 600 20px Barlow;
-    --font-text-bold: 800 20px Barlow;
-    --font-text-semiBold: 600 30px Barlow;
+    --font-project-title: 600 40px Syne;
+    --font-text-header: 800 48px Syne;
+    --font-text-semiBold: 400 35px Syne;
     --font-upcomingEvent-date: 600 60px Barlow;
   }
 }

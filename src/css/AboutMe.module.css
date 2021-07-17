@@ -37,3 +37,12 @@
   border: 2px solid var(--color-neon-pink);
   border-radius: 10px;
 }
+
+.cowDescriptions {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 9%;
+}
+
+.cowRow {
+}

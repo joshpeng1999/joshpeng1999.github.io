@@ -1,10 +1,13 @@
 /** @format */
 
+/** @format */
+
 import styles from "../css/AboutMe.module.css";
 import joshShadow from "../assets/joshShadow.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import CowText from "./CowText";
 
 const AboutMe = (props) => {
   useEffect(() => {
@@ -31,6 +34,7 @@ const AboutMe = (props) => {
           className={styles.joshPic}
         />
       </div>
+      <CowText />
     </div>
   );
 };
