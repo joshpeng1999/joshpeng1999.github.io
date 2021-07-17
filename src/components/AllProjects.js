@@ -52,7 +52,10 @@ const AllProjects = (props) => {
       </div>
 
       <p className={styles.github}>
-        <a className={styles.linkStyling} href="https://github.com/JCODEPENG">
+        <a
+          className={styles.linkStyling}
+          href="https://github.com/JoshuaPeng1999"
+        >
           See more on my Github!
         </a>
       </p>
