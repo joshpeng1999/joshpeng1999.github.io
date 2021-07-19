@@ -1,0 +1,39 @@
+/** @format */
+
+.container {
+  background-color: var(--color-image-background);
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cowText {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font: var(--font-text-subHeader);
+  color: var(--color-text-body);
+  margin: 0;
+  margin-top: 22px;
+  text-align: left;
+}
+
+.comment {
+  font: var(--font-smallText-body);
+  color: var(--color-text-body);
+  margin-top: 15px;
+  text-align: left;
+}
+
+@media only screen and (max-height: 630px) {
+  .container {
+    padding-top: 400px;
+  }
+}

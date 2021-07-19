@@ -2,7 +2,10 @@
 
 import styles from "../css/AllProjects.module.css";
 import Project from "./Project";
+import airpods from "../assets/airpods.svg";
+import useMediaQuery from "../utils/useMediaQuery";
 const AllProjects = (props) => {
+  const isDesktop = useMediaQuery("(min-width: 600px)");
   const projects = [
     {
       src: "./area52.svg",
@@ -63,7 +66,13 @@ const AllProjects = (props) => {
       <p style={{ marginTop: "50px" }} className={styles.title}>
         Music Projects
       </p>
-      <p className={styles.inProgress}>
+      <img src={airpods} className={styles.airpods} alt={airpods}></img>
+      <p
+        style={
+          isDesktop ? { paddingBottom: "160px" } : { paddingBottom: "0px" }
+        }
+        className={styles.inProgress}
+      >
         ...Currently in progress but stay tuned!
       </p>
     </div>

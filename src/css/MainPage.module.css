@@ -1,1 +1,5 @@
 /** @format */
+
+.websiteContainer {
+  background-color: var(--color-image-background);
+}

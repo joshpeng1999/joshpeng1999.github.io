@@ -4,27 +4,11 @@ import styles from "../css/CowText.module.css";
 import CowImage from "../assets/headPhoneCow.svg";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import cows from "../utils/descriptions";
 
 const cowResolver = require.context("../assets", false, /.*\.svg/);
 
 const CowText = (props) => {
-  const cows = [
-    {
-      title: "I am a cool cow",
-      text: "I like to code in things",
-      padDown: { marginTop: "2vw" },
-    },
-    {
-      title: "I am a cool cow",
-      text: "I like to code in things",
-      style: { marginTop: "1.5vw" },
-    },
-    {
-      title: "I am a cool cow",
-      text: "I like to code in things",
-      padDown: { marginTop: "2vw" },
-    },
-  ];
   return (
     <div className={styles.container}>
       <div className={styles.cowsRows}>

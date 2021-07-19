@@ -1,7 +1,4 @@
 /** @format */
-
-/** @format */
-
 import styles from "../css/AboutMe.module.css";
 import joshShadow from "../assets/joshShadow.png";
 import Aos from "aos";

@@ -1,0 +1,83 @@
+/** @format */
+
+.container {
+  background-color: var(--color-image-background);
+  padding-left: 12%;
+  padding-right: 14%;
+  padding-top: 100px;
+
+  text-align: left;
+  position: relative;
+}
+
+.title {
+  font: var(--font-text-header);
+  color: var(--color-text-body);
+  margin: 0;
+}
+
+.links {
+  color: var(--color-neon-pink);
+}
+
+.bodyText {
+  margin: 0;
+  font: var(--font-smallText-body);
+  color: var(--color-text-body);
+  margin-bottom: 60px;
+}
+
+.socialsText {
+  margin: 0;
+  margin-left: 40px;
+  font: var(--font-smallText-body);
+  color: var(--color-text-body);
+}
+
+.socialGroup {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 37px;
+}
+
+.iconLink {
+  text-decoration: none;
+}
+
+.cowImage {
+  position: absolute;
+  top: 150px;
+  right: 5%;
+  width: 200px;
+}
+
+.socialsContainerMobile {
+  display: flex;
+  justify-content: space-around;
+}
+
+.lines {
+  width: 26%;
+  height: 10px;
+  background-color: #9e2d3b;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.constructionCow {
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.laifu {
+  padding-left: 5%;
+  padding-right: 2%;
+  width: 20%;
+}

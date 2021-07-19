@@ -2,7 +2,8 @@
 
 import styles from "../css/Navbar.module.css";
 
-import { Link } from "react-scroll";
+import { Link, Events, scrollSpy } from "react-scroll";
+import { useEffect } from "react";
 
 const Navbar = (props) => {
   return (
@@ -60,10 +61,12 @@ const Navbar = (props) => {
         <li className={styles.spaceLinks}>
           <Link
             activeClass={styles.active}
-            to="service"
+            to="section4"
             className={styles.linkText}
-            spy={false}
+            spy={true}
             smooth={true}
+            offset={-80}
+            duration={500}
             isDynamic={true}
           >
             Contact

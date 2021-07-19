@@ -3,20 +3,20 @@
 .container {
   position: fixed;
   width: 100%;
-  left: 0;
   top: 0;
-  height: 80px;
   background-color: var(--color-image-background);
   z-index: 1;
 }
 
 .navLinks {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-end;
   list-style: none;
   margin: 0;
-  transition: transform 0.3s ease-in-out;
+  padding: 0;
+  padding-bottom: 30px;
+  transition: transform 3s ease-in-out;
 }
 
 .linkText {
@@ -27,19 +27,6 @@
   position: relative;
   padding: 4px 0;
   opacity: 0.75;
-}
-
-.linkText::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 5px;
-  top: 100%;
-  left: 0;
-  background: #f23eeb;
-  transition: transform 0.5s;
-  transform: scaleX(0);
-  transform-origin: right;
 }
 
 .linkText:hover {
@@ -53,7 +40,6 @@
 
 .spaceLinks {
   padding-top: 16px;
-  padding-right: 4%;
 }
 
 .active {
