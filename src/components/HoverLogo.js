@@ -32,45 +32,43 @@ const HoverLogo = (props) => {
   );
 
   useEffect(() => {
-    if (!connect) {
-      TweenMax.to(image.current, 2, {
-        attr: {
-          d: "M2 253.798C538.686 435.832 904.314 -172.589 1441 153.5198",
-        },
-        ease: Power1.easeInOut,
-        stagger: 5,
-        repeat: -1,
-        yoyo: true,
-      });
-      TweenMax.to(image2.current, 5, {
-        attr: {
-          d: "M9 280.53C420 474.499 933 -151.001 1453.5 299.03",
-        },
-        ease: Power1.easeInOut,
-        repeat: -1,
-        yoyo: true,
-      });
-      TweenMax.to(image3.current, 5, {
-        attr: {
-          d: "M2 145.7459C445 291.499 852 -197.5 1440.5 203.246",
-        },
-        ease: Power1.easeInOut,
-        repeat: -1,
-        yoyo: true,
-      });
-      TweenMax.to(eighthNote.current, 2, {
-        y: "10vh",
-        ease: Power1.easeInOut,
-        repeat: -1,
-        yoyo: true,
-      });
-      TweenMax.to(quarterNote.current, 2, {
-        y: "-5vh",
-        ease: Power1.easeInOut,
-        repeat: -1,
-        yoyo: true,
-      });
-    }
+    TweenMax.to(image.current, 2, {
+      attr: {
+        d: "M2 253.798C538.686 435.832 904.314 -172.589 1441 153.5198",
+      },
+      ease: Power1.easeInOut,
+      stagger: 5,
+      repeat: -1,
+      yoyo: true,
+    });
+    TweenMax.to(image2.current, 5, {
+      attr: {
+        d: "M9 280.53C420 474.499 933 -151.001 1453.5 299.03",
+      },
+      ease: Power1.easeInOut,
+      repeat: -1,
+      yoyo: true,
+    });
+    TweenMax.to(image3.current, 5, {
+      attr: {
+        d: "M2 145.7459C445 291.499 852 -197.5 1440.5 203.246",
+      },
+      ease: Power1.easeInOut,
+      repeat: -1,
+      yoyo: true,
+    });
+    TweenMax.to(eighthNote.current, 2, {
+      y: "10vh",
+      ease: Power1.easeInOut,
+      repeat: -1,
+      yoyo: true,
+    });
+    TweenMax.to(quarterNote.current, 2, {
+      y: "-5vh",
+      ease: Power1.easeInOut,
+      repeat: -1,
+      yoyo: true,
+    });
   }, []);
 
   const resetThreads = () => {
@@ -206,7 +204,6 @@ const HoverLogo = (props) => {
     setPath2(`M0,150 Q${x}, ${height} 1453.5, 150`);
     setPath3(`M0,120 Q${x}, ${height} 1453.5, 120`);
     setHeight(height / 4);
-    console.log(height);
   };
 
   const onMove = (event) => {
@@ -224,60 +221,58 @@ const HoverLogo = (props) => {
   };
 
   return (
-    <div>
-      <div
-        onMouseMove={onMove}
-        onMouseLeave={resetThreads}
-        className={styles.container}
-      >
-        <img alt="Josh Peng" src={logo} className={styles.logo}></img>
-        <img
-          ref={eighthNote}
-          alt="Music Note"
-          style={{ top: height }}
-          src={eightNote}
-          className={styles.eightNote}
-        ></img>
-        <img
-          ref={quarterNote}
-          alt="Music Note"
-          style={{ top: height }}
-          src={fourNote}
-          className={styles.quarterNote}
-        ></img>
+    <div
+      onMouseMove={onMove}
+      onMouseLeave={resetThreads}
+      className={styles.container}
+    >
+      <img alt="Josh Peng" src={logo} className={styles.logo}></img>
+      <img
+        ref={eighthNote}
+        alt="Music Note"
+        style={{ top: height }}
+        src={eightNote}
+        className={styles.eightNote}
+      ></img>
+      <img
+        ref={quarterNote}
+        alt="Music Note"
+        style={{ top: height }}
+        src={fourNote}
+        className={styles.quarterNote}
+      ></img>
 
-        <svg
-          className={styles.threads}
-          viewBox="0 0 1454 400"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            ref={image}
-            d={path1}
-            stroke="#3EF2E7"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            ref={image2}
-            d={path2}
-            stroke="#F23EEB"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-          <path
-            ref={image3}
-            d={path3}
-            stroke="#413EF2"
-            stroke-width="3"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-      </div>
+      <svg
+        className={styles.threads}
+        viewBox="0 0 1454 400"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          ref={image}
+          d={path1}
+          stroke="#3EF2E7"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          ref={image2}
+          d={path2}
+          stroke="#F23EEB"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          ref={image3}
+          d={path3}
+          stroke="#413EF2"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
     </div>
   );
 };

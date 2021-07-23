@@ -29,7 +29,12 @@ const Contacts = (props) => {
       <p className={styles.title}>Let's work together!</p>
       <p className={styles.bodyText}>
         Feel free to{" "}
-        <a className={styles.links} href="google.ca">
+        <a
+          className={styles.links}
+          href="google.ca"
+          target="_blank"
+          rel="noreferrer"
+        >
           check out my resume
         </a>{" "}
         and my other links:
@@ -41,11 +46,21 @@ const Contacts = (props) => {
       >
         {socials.map((icon, i) => (
           <div className={styles.socialGroup}>
-            <a className={styles.iconLink} href={icon.link}>
+            <a
+              className={styles.iconLink}
+              href={icon.link}
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={icon.src} alt={icon.src} />
             </a>
             {isDesktop && (
-              <a className={styles.iconLink} href={icon.link}>
+              <a
+                className={styles.iconLink}
+                href={icon.link}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <p className={styles.socialsText}>{icon.msg}</p>
               </a>
             )}

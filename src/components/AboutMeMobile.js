@@ -1,6 +1,5 @@
 /** @format */
 import styles from "../css/AboutMeMobile.module.css";
-import Aos from "aos";
 import "aos/dist/aos.css";
 import cows from "../utils/descriptions";
 

@@ -1,9 +1,7 @@
 /** @format */
 
 import styles from "../css/Navbar.module.css";
-
-import { Link, Events, scrollSpy } from "react-scroll";
-import { useEffect } from "react";
+import { Link } from "react-scroll";
 
 const Navbar = (props) => {
   return (

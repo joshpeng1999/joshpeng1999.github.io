@@ -57,7 +57,9 @@ const AllProjects = (props) => {
       <p className={styles.github}>
         <a
           className={styles.linkStyling}
-          href="https://github.com/JoshuaPeng1999"
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/joshpeng1999"
         >
           See more on my Github!
         </a>

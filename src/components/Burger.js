@@ -1,7 +1,6 @@
 /** @format */
 
 import styles from "../css/Burger.module.css";
-import { useState } from "react";
 
 const Burger = (props) => {
   return (

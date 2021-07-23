@@ -3,7 +3,7 @@
 import styles from "../css/NavbarMobile.module.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import { Link, Events, scrollSpy } from "react-scroll";
+import { Link } from "react-scroll";
 import { useEffect, useState } from "react";
 import Burger from "./Burger";
 
@@ -31,7 +31,7 @@ const NavbarMobile = (props) => {
               to="section1"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={-40}
               duration={500}
               isDynamic={true}
               className={styles.linkText}
@@ -49,7 +49,7 @@ const NavbarMobile = (props) => {
               to="section2"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={-40}
               duration={500}
               isDynamic={true}
               className={styles.linkText}
@@ -67,7 +67,7 @@ const NavbarMobile = (props) => {
               to="section3"
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={-40}
               duration={500}
               isDynamic={true}
               className={styles.linkText}
@@ -86,7 +86,7 @@ const NavbarMobile = (props) => {
               className={styles.linkText}
               spy={true}
               smooth={true}
-              offset={-80}
+              offset={-40}
               duration={500}
               isDynamic={true}
             >
