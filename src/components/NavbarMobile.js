@@ -22,7 +22,9 @@ const NavbarMobile = (props) => {
       }
       className={styles.container}
     >
-      <Burger open={open} setOpen={setOpen} />
+      <div className={styles.burgerPos}>
+        <Burger open={open} setOpen={setOpen} />
+      </div>
       {open && (
         <ul className={styles.navLinks}>
           <li className={styles.spaceLinks} data-aos="fade-down">

@@ -6,7 +6,6 @@
   display: flex;
   justify-content: space-around;
   flex-flow: column nowrap;
-  margin: auto;
   padding: 25px 0;
 }
 

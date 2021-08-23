@@ -3,6 +3,7 @@
 .container {
   border: 2px solid var(--color-neon-pink);
   background-color: var(--color-image-background);
+  height: 550px;
 }
 
 .imageSection {

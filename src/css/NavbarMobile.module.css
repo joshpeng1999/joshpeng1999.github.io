@@ -45,3 +45,9 @@
 .active {
   opacity: 1;
 }
+
+.burgerPos {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}

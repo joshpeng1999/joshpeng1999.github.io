@@ -8,9 +8,9 @@ const AllProjects = (props) => {
   const isDesktop = useMediaQuery("(min-width: 600px)");
   const projects = [
     {
-      src: "./area52.svg",
-      title: "Storm Area 52",
-      text: "Storm Area 52 is a local multiplayer party game about working together to break into a secret military base, collect evidence of state secrets, and escape before you’re detected",
+      src: "./stormhacks.svg",
+      title: "Stormhacks 2021",
+      text: "Stormhacks is an annual 24 hour hackathon hosted by SFU Surge that usually has 300+ attendees! The main website was developed by a small group of developers using React.",
       link: "https://github.com/sfusurge/StormArea52",
     },
     {
@@ -20,14 +20,14 @@ const AllProjects = (props) => {
       link: "https://github.com/sfusurge/StormArea52",
     },
     {
-      src: "./area52.svg",
-      title: "Storm Area 52",
-      text: "Storm Area 52 is a local multiplayer party game about working together to break into a secret military base, collect evidence of state secrets, and escape before you’re detected",
+      src: "./dungeonDasher.svg",
+      title: "Dungeon Dasher",
+      text: "Dungeon Dasher is a single player game that features three unique levels about finding/clicking buttons to escape a dungeon filled with monsters and traps.",
       link: "https://github.com/sfusurge/StormArea52",
     },
     {
       src: "./area52.svg",
-      title: "Storm Area 52",
+      title: "Reversi AI",
       text: "Storm Area 52 is a local multiplayer party game about working together to break into a secret military base, collect evidence of state secrets, and escape before you’re detected",
       link: "https://github.com/sfusurge/StormArea52",
     },
