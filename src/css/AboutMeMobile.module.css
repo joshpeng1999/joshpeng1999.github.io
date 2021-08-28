@@ -3,6 +3,7 @@
 .container {
   background-color: var(--color-image-background);
   display: flex;
+  padding: 0 10%;
   padding-top: 50px;
   flex-direction: column;
   justify-content: center;

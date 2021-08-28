@@ -17,6 +17,7 @@
   --font-project-title: 600 30px Syne;
   --font-text-header: 800 24px Syne;
   --font-text-semiBold: 400 20px Syne;
+  --font-text-lightBold: 200 20px Syne;
   --font-socials-text: 400 18px Syne;
 }
 
@@ -30,6 +31,7 @@
     --font-text-semiBold: 400 35px Syne;
     --font-project-title: 600 36px Syne;
     --font-smallText-body: 400 18px Syne;
+    --font-text-lightBold: 400 20px Syne;
     --font-socials-text: 400 30px Syne;
   }
 }

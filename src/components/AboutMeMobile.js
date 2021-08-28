@@ -9,7 +9,13 @@ const AboutMeMobile = (props) => {
   return (
     <div className={styles.container}>
       {cows.map((cow, i) => (
-        <div className={styles.cowText}>
+        <div
+          data-aos="zoom-out"
+          data-aos-delay="500"
+          data-aos-once="true"
+          key={i}
+          className={styles.cowText}
+        >
           <img src={cowResolver(cow.src).default} alt={cow.src} />
           <p style={props.extraMargin} className={styles.title}>
             {cow.title}

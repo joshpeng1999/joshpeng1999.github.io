@@ -10,26 +10,30 @@ const AllProjects = (props) => {
     {
       src: "./stormhacks.svg",
       title: "Stormhacks 2021",
+      language: "React · JavaScript · CSS",
       text: "Stormhacks is an annual 24 hour hackathon hosted by SFU Surge that usually has 300+ attendees! The main website was developed by a small group of developers using React.",
-      link: "https://github.com/sfusurge/StormArea52",
+      link: "https://github.com/sfusurge/hackathon",
     },
     {
       src: "./area52.svg",
       title: "Storm Area 52",
+      language: "Unity · C#",
       text: "Storm Area 52 is a local multiplayer party game about working together to break into a secret military base, collect evidence of state secrets, and escape before you’re detected",
       link: "https://github.com/sfusurge/StormArea52",
     },
     {
       src: "./dungeonDasher.svg",
       title: "Dungeon Dasher",
+      language: "Java",
       text: "Dungeon Dasher is a single player game that features three unique levels about finding/clicking buttons to escape a dungeon filled with monsters and traps.",
-      link: "https://github.com/sfusurge/StormArea52",
+      link: "https://github.com/joshpeng1999/Dungeon-Dasher",
     },
     {
-      src: "./area52.svg",
+      src: "./reversi.svg",
       title: "Reversi AI",
-      text: "Storm Area 52 is a local multiplayer party game about working together to break into a secret military base, collect evidence of state secrets, and escape before you’re detected",
-      link: "https://github.com/sfusurge/StormArea52",
+      language: "C++",
+      text: "For a school final project, I was able to create an AI for the game Reversi using the Monte Carlo Tree Search algorithm. Can you beat my Cpu player?",
+      link: "https://github.com/joshpeng1999/ReversiAI",
     },
   ];
 
@@ -43,10 +47,11 @@ const AllProjects = (props) => {
         className={styles.innerContainer}
       >
         {projects.map((project, i) => (
-          <div className={styles.projectBox}>
+          <div key={i} className={styles.projectBox}>
             <Project
               src={project.src}
               title={project.title}
+              language={project.language}
               text={project.text}
               link={project.link}
             />
@@ -68,8 +73,18 @@ const AllProjects = (props) => {
       <p style={{ marginTop: "50px" }} className={styles.title}>
         Music Projects
       </p>
-      <img src={airpods} className={styles.airpods} alt={airpods}></img>
+      <img
+        data-aos="zoom-out"
+        data-aos-delay="500"
+        data-aos-once="true"
+        src={airpods}
+        className={styles.airpods}
+        alt={airpods}
+      ></img>
       <p
+        data-aos="zoom-out"
+        data-aos-delay="800"
+        data-aos-once="true"
         style={
           isDesktop ? { paddingBottom: "160px" } : { paddingBottom: "0px" }
         }

@@ -40,12 +40,15 @@ const Contacts = (props) => {
         and my other links:
       </p>
       <div
+        data-aos="fade-up"
+        data-aos-delay="500"
+        data-aos-once="true"
         className={
           isDesktop ? styles.socialsContainer : styles.socialsContainerMobile
         }
       >
         {socials.map((icon, i) => (
-          <div className={styles.socialGroup}>
+          <div key={i} className={styles.socialGroup}>
             <a
               className={styles.iconLink}
               href={icon.link}
@@ -68,6 +71,9 @@ const Contacts = (props) => {
         ))}
       </div>
       <img
+        data-aos="flip-left"
+        data-aos-delay="800"
+        data-aos-once="true"
         className={styles.constructionCow}
         src={constructionCow}
         alt={constructionCow}

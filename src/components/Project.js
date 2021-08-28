@@ -15,7 +15,7 @@ const Project = (props) => {
           ? isLaptop
             ? { width: "450px" }
             : { width: "380px" }
-          : { width: "250px" }
+          : { width: "250px", height: "inherit" }
       }
       className={styles.container}
     >
@@ -26,6 +26,7 @@ const Project = (props) => {
       />
       <div className={styles.textPadding}>
         <p className={styles.title}>{props.title}</p>
+        <p className={styles.subTitle}>{props.language}</p>
         <p
           style={isDesktop ? { fontSize: "20px" } : { fontSize: "18px" }}
           className={styles.bodyText}
