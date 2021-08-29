@@ -7,6 +7,7 @@ import mail from "../assets/mail.svg";
 import constructionCow from "../assets/constructionCow.svg";
 import useMediaQuery from "../utils/useMediaQuery";
 import laifu from "../assets/laifu.svg";
+import resume from "../assets/pdf/Josh_peng_resume.pdf";
 
 const Contacts = (props) => {
   const isDesktop = useMediaQuery("(min-width: 600px)");
@@ -31,7 +32,7 @@ const Contacts = (props) => {
         Feel free to{" "}
         <a
           className={styles.links}
-          href="google.ca"
+          href={resume}
           target="_blank"
           rel="noreferrer"
         >
