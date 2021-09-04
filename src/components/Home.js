@@ -15,22 +15,28 @@ import { Howl } from "howler";
 
 const Home = (props) => {
   const [chordPos, setCurrPos] = useState(0);
-  const chordOrder = [G, Dmaj, F, Gm, G, Dmaj, F, Cm];
+  const [strumChords, setStrumChords] = useState([]);
+  const [chordOrder] = useState([G, Dmaj, F, Gm, G, Dmaj, F, Cm]);
   const [mute, setMute] = useState(true);
 
-  useEffect(() => {}, []);
-
-  const playChords = () => {
-    const newChord = chordOrder[chordPos % 8];
-    if (!mute) {
+  useEffect(() => {
+    const processChords = [];
+    chordOrder.forEach((chord) => {
       let sound = new Howl({
-        src: [newChord],
+        src: [chord],
         html5: true,
         volume: 1,
       });
-      sound.play();
+      processChords.push(sound);
+    });
+    setStrumChords(processChords);
+  }, [chordOrder]);
+
+  const playChords = () => {
+    const newChord = strumChords[chordPos % 8];
+    if (!mute) {
+      newChord.play();
       setCurrPos(chordPos + 1);
-      console.log("played");
     }
   };
 
