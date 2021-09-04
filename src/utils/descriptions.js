@@ -10,7 +10,7 @@ const cows = [
   {
     src: "./coolCow.svg",
     title: "I am a producer",
-    text: "I like working with music production playing around in FL Studio",
+    text: "I like music production and producing music in FL Studio",
     style: { marginTop: "1.5vw" },
   },
   {
