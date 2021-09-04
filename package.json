@@ -2,7 +2,7 @@
   "name": "joshuapeng.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://joshpeng1999.github.io/joshuapeng1999.github.io",
+  "homepage": "http://joshpeng1999.github.io/myWebsite",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
