@@ -1,0 +1,51 @@
+/** @format */
+
+.container {
+  background-color: var(--color-image-background);
+  height: 100vh;
+}
+
+.placement {
+  padding-top: 25vh;
+}
+
+.scrollDown {
+  position: absolute;
+  bottom: 30px;
+  padding-top: 4%;
+  top: max(78vh, 430px);
+  left: 40%;
+  right: 40%;
+  transition: ease-in-out 0.4s;
+}
+
+.scrollDownText {
+  font: var(--font-body-scrollDown);
+  color: var(--color-text-body);
+}
+
+.mute {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.muteBtnGroup {
+  position: absolute;
+  top: max(84vh, 600px);
+  left: 2%;
+  bottom: 10px;
+  transition: ease-in-out 0.4s;
+}
+.muteBtnText {
+  display: flex;
+  align-items: center;
+}
+
+.strumStrings {
+  margin: 0;
+  width: 40%;
+  font: var(--font-smallText-body);
+  color: var(--color-text-body);
+  margin: 0;
+}

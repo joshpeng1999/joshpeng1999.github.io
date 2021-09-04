@@ -1,0 +1,48 @@
+/** @format */
+
+.container {
+  background-color: var(--color-image-background);
+  height: 100vh;
+  width: 100%;
+}
+
+.lines {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.logo {
+  width: 72%;
+  position: absolute;
+  left: 15%;
+  right: 15%;
+  top: 25vw;
+}
+
+.aboutMe {
+  padding-top: 90vw;
+  padding-left: 10%;
+  text-align: left;
+  width: 50%;
+}
+
+.bigHello {
+  margin: 0;
+  font: var(--font-body-title);
+  color: var(--color-text-body);
+}
+
+.myName {
+  margin: 0;
+  font: var(--font-subBody-title);
+  color: var(--color-text-body);
+}
+
+.joshPic {
+  width: 100%;
+  margin-top: 30px;
+  border: 2px solid var(--color-neon-pink);
+  border-radius: 10px;
+}

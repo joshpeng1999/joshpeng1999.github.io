@@ -1,13 +1,51 @@
+/** @format */
+
+:root {
+  --color-text-body: #ffffff;
+  --color-image-background: #1b1818;
+  --color-neon-pink: #f23eeb;
+  --color-neon-green: #3ef2b8;
+  --color-background-primary: #f6f6f6;
+  --color-button-dropdown: #b2cbf5;
+  --font-nav-text: 600 32px Syne;
+  --font-body-scrollDown: 800 22px Syne;
+  --font-body-title: 800 36px Syne;
+  --font-subBody-title: 800 24px Syne;
+  --font-text-body: 600 22px Syne;
+  --font-text-subHeader: 800 22px Syne;
+  --font-smallText-body: 400 18px Syne;
+  --font-project-title: 600 30px Syne;
+  --font-text-header: 800 24px Syne;
+  --font-text-semiBold: 400 20px Syne;
+  --font-text-lightBold: 200 20px Syne;
+  --font-socials-text: 400 18px Syne;
+}
+
+@media only screen and (min-width: 600px) {
+  :root {
+    --font-body-title: 800 96px Syne;
+    --font-subBody-title: 800 64px Syne;
+    --font-subBody-title: 800 36px Syne;
+    --font-project-title: 600 40px Syne;
+    --font-text-header: 800 48px Syne;
+    --font-text-semiBold: 400 35px Syne;
+    --font-project-title: 600 36px Syne;
+    --font-smallText-body: 400 18px Syne;
+    --font-text-lightBold: 400 20px Syne;
+    --font-socials-text: 400 30px Syne;
+  }
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }

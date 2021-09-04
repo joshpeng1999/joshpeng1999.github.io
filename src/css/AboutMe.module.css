@@ -1,0 +1,46 @@
+/** @format */
+
+.container {
+  background-color: var(--color-image-background);
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 130px;
+  margin-bottom: 67px;
+  margin-left: 8%;
+  margin-right: 5%;
+}
+
+.textGroup {
+  margin: 0;
+  padding: 0 2%;
+  text-align: left;
+}
+
+.bigHello {
+  margin: 0;
+  font: var(--font-body-title);
+  color: var(--color-text-body);
+}
+
+.myName {
+  margin: 0;
+  font: var(--font-subBody-title);
+  color: var(--color-text-body);
+}
+
+.joshPic {
+  width: 43%;
+  border: 2px solid var(--color-neon-pink);
+  border-radius: 10px;
+}
+
+.cowDescriptions {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 9%;
+}

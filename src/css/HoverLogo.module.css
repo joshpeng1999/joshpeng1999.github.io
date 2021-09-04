@@ -1,0 +1,29 @@
+/** @format */
+
+.container {
+  position: relative;
+  background-color: var(--color-image-background);
+  height: 25vw;
+}
+
+.eightNote {
+  position: absolute;
+  top: max(4vw, 25px);
+  width: 11%;
+  left: 7%;
+}
+
+.quarterNote {
+  position: absolute;
+  top: max(12vw, 25px);
+  width: 8%;
+  right: 4%;
+}
+
+.logo {
+  position: absolute;
+  top: -5%;
+  left: 25%;
+  right: 29%;
+  width: 55%;
+}
