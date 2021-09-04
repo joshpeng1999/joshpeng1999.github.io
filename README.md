@@ -1,8 +1,8 @@
-### Joshua Peng Portfolio
+# Joshua Peng Portfolio
 
 This project is my personal portfolio to help you get to know a little more about me :)! 
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
