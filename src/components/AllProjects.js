@@ -11,14 +11,14 @@ const AllProjects = (props) => {
       src: "./stormhacks.svg",
       title: "Stormhacks 2021",
       language: "React · JavaScript · CSS",
-      text: "Stormhacks is an annual 24 hour hackathon hosted by SFU Surge that usually has 300+ attendees! The main website was developed by a small group of developers using React.",
+      text: "Stormhacks is an annual 24 hour hackathon hosted by SFU Surge that usually has 300+ attendees! The main website was developed by a small group of SFU Surge developers.",
       link: "https://github.com/sfusurge/hackathon",
     },
     {
       src: "./area52.svg",
       title: "Storm Area 52",
       language: "Unity · C#",
-      text: "Storm Area 52 is a local multiplayer party game about working together to break into a secret military base, collect evidence of state secrets, and escape before you’re detected",
+      text: "Storm Area 52 is a local multiplayer party game about working together to break into a secret military base, collect evidence of state secrets, and escape before you’re detected.",
       link: "https://github.com/sfusurge/StormArea52",
     },
     {
