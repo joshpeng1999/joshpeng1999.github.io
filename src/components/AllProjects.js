@@ -9,9 +9,9 @@ const AllProjects = (props) => {
   const projects = [
     {
       src: "./stormhacks.svg",
-      title: "Stormhacks 2021",
+      title: "Stormhacks.com",
       language: "React · JavaScript · CSS",
-      text: "Stormhacks is an annual 24 hour hackathon hosted by SFU Surge that usually has 300+ attendees! The main website was developed by a small group of SFU Surge developers.",
+      text: "Stormhacks is an annual 24 hour hackathon hosted by SFU Surge that usually has 300+ attendees! The website mimics the UI of a Windows 98 operating system.",
       link: "https://github.com/sfusurge/hackathon",
     },
     {
@@ -32,7 +32,7 @@ const AllProjects = (props) => {
       src: "./reversi.svg",
       title: "Reversi AI",
       language: "C++",
-      text: "For a school final project, I was able to create an AI for the game Reversi using the Monte Carlo Tree Search algorithm. Can you beat my Cpu player?",
+      text: "For a school final project, I was able to create an AI for the game Reversi using the Monte Carlo Tree Search algorithm. Can you beat my CPU player?",
       link: "https://github.com/joshpeng1999/ReversiAI",
     },
   ];
