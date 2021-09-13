@@ -9,7 +9,7 @@ const AllProjects = (props) => {
   const projects = [
     {
       src: "./stormhacks.svg",
-      title: "Stormhacks.com",
+      title: "Stormhacks Website",
       language: "React · JavaScript · CSS",
       text: "Stormhacks is an annual 24 hour hackathon hosted by SFU Surge that usually has 300+ attendees! The website mimics the UI of a Windows 98 operating system.",
       link: "https://github.com/sfusurge/hackathon",
