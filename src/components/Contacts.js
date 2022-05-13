@@ -12,7 +12,7 @@ import resume from "../assets/pdf/Joshua_Peng_CV.pdf";
 const Contacts = (props) => {
   const isDesktop = useMediaQuery("(min-width: 600px)");
   const socials = [
-    { src: mail, msg: "jpa95@sfu.ca", link: "mailto:jpa95@sfu.ca" },
+    { src: mail, msg: "joshua_peng@sfu.ca", link: "mailto:joshua_peng@sfu.ca" },
     {
       src: linkedin,
       msg: "linkedin.com/in/joshuapeng1999",
