@@ -2,6 +2,13 @@
 
 const projects = [
   {
+    src: "./capsulelogo.svg",
+    title: "Capsule",
+    language: "Android Studio · Kotlin",
+    text: "A mobile outfit tracker and closet app that calculates statistics on clothing usage in an effort to reduce the overconsumption of clothes and textile waste.",
+    link: "https://github.com/praneershrest/Capsule",
+  },
+  {
     src: "./blkChain.svg",
     title: "EtherSend",
     language: "React · JavaScript · Sass · Solidity",
@@ -14,13 +21,6 @@ const projects = [
     language: "React · JavaScript · CSS",
     text: "A website created for Stormhacks, a massive 24-hour hackathon hosted by SFU Surge. The UI/UX of the website is inspired by the UI/UX of a Windows 98 operating system.",
     link: "https://github.com/sfusurge/hackathon",
-  },
-  {
-    src: "./area52.svg",
-    title: "Storm Area 52",
-    language: "Unity · C#",
-    text: "Storm Area 52 is a local multiplayer party game about working together to break into a secret military base, collect evidence of state secrets, and escape before you’re detected.",
-    link: "https://github.com/sfusurge/StormArea52",
   },
   {
     src: "./dungeonDasher.svg",
