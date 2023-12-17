@@ -5,12 +5,34 @@ import Project from "./Project";
 import airpods from "../assets/airpods.svg";
 import useMediaQuery from "../utils/useMediaQuery";
 import projects from "../utils/projects";
+import work from "../utils/work";
 const AllProjects = (props) => {
   const isDesktop = useMediaQuery("(min-width: 600px)");
 
   return (
     <div className={styles.container}>
-      <p className={styles.title}>Developer Projects</p>
+      <p className={styles.title}>Work Experience</p>
+      <div
+        data-aos="zoom-out"
+        data-aos-delay="500"
+        data-aos-once="true"
+        className={styles.innerContainer}
+      >
+        {work.map((job, i) => (
+          <div key={i} className={styles.projectBox}>
+            <Project
+              src={job.src}
+              title={job.title}
+              language={job.language}
+              text={job.text}
+            />
+          </div>
+        ))}
+      </div>
+
+      <p className={styles.title} style={{ marginTop: "60px" }}>
+        Developer Projects
+      </p>
       <div
         data-aos="zoom-out"
         data-aos-delay="500"

@@ -33,16 +33,18 @@ const Project = (props) => {
         >
           {props.text}
         </p>
-        <a
-          className={styles.btn}
-          href={props.link}
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className={styles.btnText}>
-            {isDesktop ? "Take me to the github page!" : "Github Page"}
-          </div>
-        </a>
+        {props.link && (
+          <a
+            className={styles.btn}
+            href={props.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={styles.btnText}>
+              {isDesktop ? "Take me to the github page!" : "Github Page"}
+            </div>
+          </a>
+        )}
       </div>
     </div>
   );
