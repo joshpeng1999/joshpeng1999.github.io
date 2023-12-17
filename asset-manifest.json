@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.342833bd.chunk.css",
-    "main.js": "/static/js/main.eb92d449.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.d882ba6f.js",
+    "main.css": "/static/css/main.db02c355.chunk.css",
+    "main.js": "/static/js/main.d9bb26e5.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.53a926b0.js",
     "static/css/2.0b5c1910.chunk.css": "/static/css/2.0b5c1910.chunk.css",
-    "static/js/2.0ca1c318.chunk.js": "/static/js/2.0ca1c318.chunk.js",
-    "static/js/3.881c26b7.chunk.js": "/static/js/3.881c26b7.chunk.js",
+    "static/js/2.ba7baf35.chunk.js": "/static/js/2.ba7baf35.chunk.js",
+    "static/js/3.46798c1f.chunk.js": "/static/js/3.46798c1f.chunk.js",
     "index.html": "/index.html",
-    "static/js/2.0ca1c318.chunk.js.LICENSE.txt": "/static/js/2.0ca1c318.chunk.js.LICENSE.txt",
+    "static/js/2.ba7baf35.chunk.js.LICENSE.txt": "/static/js/2.ba7baf35.chunk.js.LICENSE.txt",
     "static/media/Joshua_Peng_CV.f088fdec.pdf": "/static/media/Joshua_Peng_CV.f088fdec.pdf",
     "static/media/airpods.svg": "/static/media/airpods.eecf9444.svg",
     "static/media/area52.svg": "/static/media/area52.7fbfe0af.svg",
+    "static/media/autometrics.svg": "/static/media/autometrics.13e81efa.svg",
     "static/media/blkChain.svg": "/static/media/blkChain.22b867ba.svg",
     "static/media/capsulelogo.svg": "/static/media/capsulelogo.e6be66d8.svg",
     "static/media/chord1.1132f558.mp3": "/static/media/chord1.1132f558.mp3",
@@ -23,6 +24,7 @@
     "static/media/coolCow.svg": "/static/media/coolCow.6c9ea17d.svg",
     "static/media/dungeonDasher.svg": "/static/media/dungeonDasher.ba608b0e.svg",
     "static/media/eighthNote.svg": "/static/media/eighthNote.6f3d237f.svg",
+    "static/media/fortinet.svg": "/static/media/fortinet.d5f54665.svg",
     "static/media/github.svg": "/static/media/github.4d18a3b6.svg",
     "static/media/headPhoneCow.svg": "/static/media/headPhoneCow.dd9285f6.svg",
     "static/media/joshShadow.62de4f6f.png": "/static/media/joshShadow.62de4f6f.png",
@@ -37,15 +39,16 @@
     "static/media/mute.svg": "/static/media/mute.9edb2637.svg",
     "static/media/quarterNote.svg": "/static/media/quarterNote.1a0434c6.svg",
     "static/media/reversi.svg": "/static/media/reversi.ae475f13.svg",
+    "static/media/salesforce.svg": "/static/media/salesforce.811850f3.svg",
     "static/media/stormhacks.svg": "/static/media/stormhacks.630423f5.svg",
     "static/media/triangle.svg": "/static/media/triangle.3f131164.svg",
     "static/media/unmute.svg": "/static/media/unmute.054f612c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d882ba6f.js",
+    "static/js/runtime-main.53a926b0.js",
     "static/css/2.0b5c1910.chunk.css",
-    "static/js/2.0ca1c318.chunk.js",
-    "static/css/main.342833bd.chunk.css",
-    "static/js/main.eb92d449.chunk.js"
+    "static/js/2.ba7baf35.chunk.js",
+    "static/css/main.db02c355.chunk.css",
+    "static/js/main.d9bb26e5.chunk.js"
   ]
 }
