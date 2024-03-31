@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.db02c355.chunk.css",
-    "main.js": "/static/js/main.d9bb26e5.chunk.js",
+    "main.js": "/static/js/main.9d8b9b78.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.53a926b0.js",
     "static/css/2.0b5c1910.chunk.css": "/static/css/2.0b5c1910.chunk.css",
     "static/js/2.ba7baf35.chunk.js": "/static/js/2.ba7baf35.chunk.js",
     "static/js/3.46798c1f.chunk.js": "/static/js/3.46798c1f.chunk.js",
     "index.html": "/index.html",
     "static/js/2.ba7baf35.chunk.js.LICENSE.txt": "/static/js/2.ba7baf35.chunk.js.LICENSE.txt",
-    "static/media/Joshua_Peng_CV.f088fdec.pdf": "/static/media/Joshua_Peng_CV.f088fdec.pdf",
+    "static/media/Joshua_Peng_CV.8b96e5b9.pdf": "/static/media/Joshua_Peng_CV.8b96e5b9.pdf",
     "static/media/airpods.svg": "/static/media/airpods.eecf9444.svg",
     "static/media/area52.svg": "/static/media/area52.7fbfe0af.svg",
     "static/media/autometrics.svg": "/static/media/autometrics.13e81efa.svg",
@@ -49,6 +49,6 @@
     "static/css/2.0b5c1910.chunk.css",
     "static/js/2.ba7baf35.chunk.js",
     "static/css/main.db02c355.chunk.css",
-    "static/js/main.d9bb26e5.chunk.js"
+    "static/js/main.9d8b9b78.chunk.js"
   ]
 }
