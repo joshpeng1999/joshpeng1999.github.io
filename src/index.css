@@ -23,9 +23,8 @@
 
 @media only screen and (min-width: 600px) {
   :root {
-    --font-body-title: 800 96px Syne;
-    --font-subBody-title: 800 64px Syne;
-    --font-subBody-title: 800 36px Syne;
+    --font-body-title: 800 clamp(36px, 10vw, 96px) Syne;
+    --font-subBody-title: 800 clamp(24px, 4.5vw, 36px) Syne;
     --font-project-title: 600 40px Syne;
     --font-text-header: 800 48px Syne;
     --font-text-semiBold: 400 35px Syne;
